@@ -99,7 +99,7 @@ class OxygenURLProvider(Processor):
                 % (plat, valid_plats))
         try:
             self.env["object"] = urlopen(url).read()
-        except BaseException as err:
+        except Exception as err:
             raise ProcessorError(
                 "Unexpected error retrieving product manifest: '%s'" % err)
 

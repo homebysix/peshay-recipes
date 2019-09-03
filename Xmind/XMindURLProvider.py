@@ -57,7 +57,7 @@ class XMindURLProvider(Processor):
             url = urlopen(base_url).read()
             return url
 
-        except BaseException as err:
+        except Exception as err:
             raise Exception("Can't read %s: %s" % (base_url, err))
 
     def main(self):
