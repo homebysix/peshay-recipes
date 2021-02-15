@@ -20,8 +20,6 @@ For LINUX use i686 or x86
 -->
 		<key>OS</key>
 		<string></string>
-		<key>USER_AGENT</key>
-	    <string>Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko</string>
 	</dict>
 	    <key>MinimumVersion</key>
 	    <string>0.6.0</string>
