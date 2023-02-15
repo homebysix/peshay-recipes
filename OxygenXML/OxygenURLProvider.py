@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2016 Andreas Hubert
 #
@@ -21,7 +22,7 @@ from __future__ import absolute_import
 
 import re
 
-from autopkglib import Processor, ProcessorError, URLGetter
+from autopkglib import ProcessorError, URLGetter
 
 __all__ = ["OxygenURLProvider"]
 
@@ -53,10 +54,18 @@ class OxygenURLProvider(URLGetter):
         },
     }
     output_variables = {
-        "version": {"description": "Version of the product.",},
-        "buildid": {"description": "Build id of the product.",},
-        "url": {"description": "Download URL.",},
-        "filename": {"description": "filename of the latest Oxygen product.",},
+        "version": {
+            "description": "Version of the product.",
+        },
+        "buildid": {
+            "description": "Build id of the product.",
+        },
+        "url": {
+            "description": "Download URL.",
+        },
+        "filename": {
+            "description": "filename of the latest Oxygen product.",
+        },
     }
 
     def main(self):
@@ -74,7 +83,7 @@ class OxygenURLProvider(URLGetter):
                 "platform_name %s is invalid; it must be one of: %s"
                 % (plat, valid_plats)
             )
-        self.env["object"] = self.download(url).decode('utf-8')
+        self.env["object"] = self.download(url).decode("utf-8")
 
         substring_version = r"<li>Version: ([\d\.]+)"
         substring_buildid = r"Build id: <a href=\"(/\S+)?/build_history\.html\?build_id\=[0-9]{10}\">([0-9]{10})</a>"
@@ -96,9 +105,7 @@ class OxygenURLProvider(URLGetter):
         elif prod == "web-author":
             download_url = "https://mirror.oxygenxml.com/InstData/WebAuthor/All/oxygenxml-web-author-all-platforms.zip"
         elif prod == "WebHelp":
-            download_url = (
-                "https://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip"
-            )
+            download_url = "https://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip"
         elif prod == "Editor":
             if plat == "Windows64":
                 download_url = (

@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 #
 # Copyright 2016 Andreas Hubert
 #
@@ -18,14 +19,14 @@ from __future__ import absolute_import
 
 import re
 
-from autopkglib import Processor, ProcessorError
+from autopkglib import Processor
 
 try:
     from urllib.parse import urlopen  # For Python 3
 except ImportError:
     from urllib2 import urlopen  # For Python 2
 
-__all__ = ["XMindUrlProvider"]
+__all__ = ["XMindURLProvider"]
 
 
 BASE_URL = "https://www.xmind.app/download/mac/"
@@ -33,6 +34,7 @@ BASE_URL = "https://www.xmind.app/download/mac/"
 
 class XMindURLProvider(Processor):
     """Provides a download URL for the latest XMind release."""
+
     input_variables = {
         "base_url": {
             "required": False,
@@ -48,7 +50,7 @@ class XMindURLProvider(Processor):
         },
         "version": {
             "description": "Version of the latest XMind release.",
-        }
+        },
     }
     description = __doc__
 
@@ -64,8 +66,8 @@ class XMindURLProvider(Processor):
         """Find and return a download URL"""
         base_url = self.env.get("base_url", BASE_URL)
         self.env["object"] = self.get_xmind_url(base_url)
-        substring_version = '(//www.xmind.app/xmind/downloads/xmind-(.*)-macosx.dmg)'
-        substring_url = '(//www.xmind.app/xmind/downloads/(.*.dmg))'
+        substring_version = "(//www.xmind.app/xmind/downloads/xmind-(.*)-macosx.dmg)"
+        substring_url = "(//www.xmind.app/xmind/downloads/(.*.dmg))"
         latest = re.search(substring_version, self.env["object"])
         download = re.search(substring_url, self.env["object"])
         self.env["object"] = self.get_xmind_url(base_url)
