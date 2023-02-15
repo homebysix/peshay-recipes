@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Mattermost.</string> 
+	<string>Downloads the latest version of Mattermost.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.Mattermost</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>Mattermost</string>
-		
+
 <!--SELECT YOUR OS VERSION AND INPUT BELOW
 	"mac-universal" for macOS Universal
 	"mac-arm64" for macOS 64-Bit ARM

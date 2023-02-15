@@ -10,7 +10,7 @@
     <dict>
         <key>NAME</key>
         <string>DBeaverCE</string>
-        
+
 <!--SELECT YOUR OS VERSION AND USE IT IN YOUR OVERRIDE
 	"installer" for MAC OS X Pkg installer
 	"macos-x86_64" for macOS x86_64 DMG

@@ -11,13 +11,13 @@
         <key>NAME</key>
         <string>ClipGrab</string>
         <key>os</key>
-        
+
 <!--SELECT YOUR OS VERSION AND INPUT BELOW
 	"dmg" for MAC OS X
 	"exe" for WINDOWS EXE
 	"bz2" for LINUX
 -->
-        
+
         <string>dmg</string><!-- <<<<<< INPUT HERE <<<<<< -->
     </dict>
     <key>MinimumVersion</key>

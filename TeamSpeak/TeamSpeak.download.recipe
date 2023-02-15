@@ -10,7 +10,7 @@
     <dict>
         <key>NAME</key>
         <string>TeamSpeak</string>
-        
+
 <!--SELECT YOUR OS VERSION AND INPUT BELOW
 	"macosx" for MAC OS X
 	"win32" for WINDOWS 32 BIT EXE

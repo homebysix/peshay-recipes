@@ -21,7 +21,7 @@
 	<string>com.github.n8felton.download.MAMP</string>
 	<key>Process</key>
 	<array>
-		
+
 		<dict>
 			<key>Arguments</key>
 			<dict>

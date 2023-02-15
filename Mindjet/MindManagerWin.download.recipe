@@ -11,12 +11,12 @@
         <key>NAME</key>
         <string>Mindjet MindManager Windows</string>
         <key>locale</key>
-        
+
     <!--
     	"en" for WINDOWS (English)
     	"ru" for WINDOWS (Russian)
-    -->    	 
-    	 
+    -->
+
     	<string>ru</string>
     </dict>
     <key>MinimumVersion</key>

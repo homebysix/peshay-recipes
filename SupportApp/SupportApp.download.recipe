@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of SupportApp.</string> 
+	<string>Downloads the latest version of SupportApp.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.supportapp</string>
 	<key>Input</key>

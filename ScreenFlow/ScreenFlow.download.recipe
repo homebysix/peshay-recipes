@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of ScreenFlow.</string> 
+	<string>Downloads the latest version of ScreenFlow.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.ScreenFlow</string>
 	<key>Input</key>
@@ -11,9 +11,9 @@
 		<key>NAME</key>
 		<string>ScreenFlow</string>
 		<key>ver</key>
-		
+
 <!--SELECT DESIRED VERSION (2-4-6) AND INPUT BELOW-->
-		
+
 		<string>6</string><!-- <<<<<< INPUT HERE <<<<<< -->
 	</dict>
 	<key>MinimumVersion</key>

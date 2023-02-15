@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Magewell USB Capture Utility drivers and software.</string> 
+	<string>Downloads the latest version of Magewell USB Capture Utility drivers and software.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.Magewell</string>
 	<key>Input</key>

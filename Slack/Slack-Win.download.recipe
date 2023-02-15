@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Slack.</string> 
+	<string>Downloads the latest version of Slack.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.Slack-Win</string>
 	<key>Input</key>

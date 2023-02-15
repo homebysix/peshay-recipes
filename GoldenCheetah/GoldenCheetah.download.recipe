@@ -10,7 +10,7 @@
     <dict>
         <key>NAME</key>
         <string>GoldenCheetah</string>
-        
+
 <!--SELECT YOUR OS VERSION AND USE IT IN YOUR OVERRIDE
 	"dmg" for MAC OS X
 	"exe" for WINDOWS

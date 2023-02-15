@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of RawTherapee.</string> 
+	<string>Downloads the latest version of RawTherapee.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.RawTherapee</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>RawTherapee</string>
-	
+
 <!--SELECT YOUR OS VERSION AND INPUT BELOW
 	"mac" for MAC OS X
 	"windows" for WINDOWS

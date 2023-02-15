@@ -10,14 +10,14 @@
     <dict>
         <key>NAME</key>
         <string>TagSpaces</string>
-        
+
 <!--SELECT YOUR OS VERSION AND USE IT IN YOUR OVERRIDE
 	"osx64" for MAC OS X
 	"win32" for WINDOWS 32bit
 	"win64" for WINDOWS 64bit
 	"linux32" for LINUX 32bit
 	"linux64" for LINUX 64bit
-	
+
 -->
 
 		<key>os</key>

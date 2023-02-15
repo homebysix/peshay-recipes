@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of BitcoinCore.</string> 
+	<string>Downloads the latest version of BitcoinCore.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.BitcoinCore</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>BitcoinCore</string>
-	
+
 <!--SELECT YOUR OS VERSION AND INPUT BELOW
 	"macdmg" for MAC OS X
 	"mactar" for MAC OS X TARBALL

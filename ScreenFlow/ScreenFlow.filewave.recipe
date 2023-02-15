@@ -15,9 +15,9 @@
 		<key>fw_destination_root</key>
 		<string>/Applications/ScreenFlow.app</string>
 		<key>ver</key>
-		
+
 		<!--SELECT DESIRED VERSION (2-4-6) AND INPUT BELOW-->
-		
+
 		<string></string><!-- <<<<<< INPUT HERE <<<<<< -->
 	</dict>
 	<key>MinimumVersion</key>

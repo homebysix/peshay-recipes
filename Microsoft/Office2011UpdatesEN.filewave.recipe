@@ -20,7 +20,7 @@
 		<key>fw_app_bundle_id</key>
         <string>com.github.peshay.filewave.Office2011UpdatesEN</string>
 	</dict>
-	
+
 	<key>Process</key>
 	<array>
 		<dict>

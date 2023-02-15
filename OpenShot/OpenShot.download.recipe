@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OpenShot.</string> 
+	<string>Downloads the latest version of OpenShot.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.OpenShot</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>OpenShot</string>
-	
+
 <!--SELECT YOUR OS VERSION AND USE IT IN YOUR OVERRIDE
 	"dmg" for MAC OS X
 	"exe" for WINDOWS

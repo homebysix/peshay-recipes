@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of AnyDesk.</string> 
+	<string>Downloads the latest version of AnyDesk.</string>
 	<key>Identifier</key>
 	<string>com.github.peshay.download.AnyDesk</string>
 	<key>Input</key>
