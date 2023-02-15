@@ -24,15 +24,6 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>version</key>
-				<string>version</string>
-			</dict>
-			<key>Processor</key>
-			<string>SparkleUpdateInfoProvider</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>fw_app_bundle_id</key>
 				<string>%fw_app_bundle_id%</string>
 				<key>fw_app_version</key>
